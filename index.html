@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="font-size: 12px;" lang="en">
 
 <head>
   <!-- Required meta tags -->
@@ -11,32 +11,46 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
+  <!-- Icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <title>MARCA Claro México - Diario online lider en información deportiva</title>
   <link rel="shortcut icon" href="/favicon.ico" sizes="any">
 </head>
 
 <body>
   <div class="container-fluid d-flex flex-row justify-content-center text-secondary align-content-center h6">
-    <div class="font-weight-bold">Es noticia: </div>
-    <div>Simulacro Nacional 2022</div>
-    <div>Sismo hoy</div>
-    <div>Funeral Isabel II</div>
-    <div>House of the Dragon 01x5</div>
-    <div>Tormenta Lester</div>
-    <div>Sorteo Zodiaco</div>
-    <div>VIDEOS de hoy</div>
-    <div>Últimas noticias</div>
-  </div>
 
-  <div class="container-fluid p-0 w-0 bg-white">
-    <nav class="container navbar navbar-expand-lg navbar-light bg-white d-flex flex-row justify-content-around">
-      <div class="container d-flex w-auto">
-        <div class="d-flex align-content-center justify-content-start">
+  </div>
+  <ul class="list-group list-group-horizontal list-group-flush border-0 d-flex justify-content-center">
+    <li class="list-group-item font-weight-bold border-0">Es noticia: </li>
+    <li class="list-group-item border-0">Simulacro Nacional 2022</li>
+    <li class="list-group-item border-0">/</li>
+    <li class="list-group-item border-0">Sismo hoy</li>
+    <li class="list-group-item border-0">/</li>
+    <li class="list-group-item border-0">Funeral Isabel II</li>
+    <li class="list-group-item border-0">/</li>
+    <li class="list-group-item border-0">House of the Dragon 01x5</li>
+    <li class="list-group-item border-0">/</li>
+    <li class="list-group-item border-0">Tormenta Lester</li>
+    <li class="list-group-item border-0">/</li>
+    <li class="list-group-item border-0">Sorteo Zodiaco</li>
+    <li class="list-group-item border-0">/</li>
+    <li class="list-group-item border-0">VIDEOS de hoy</li>
+    <li class="list-group-item border-0">/</li>
+    <li class="list-group-item border-0">Últimas noticias</li>
+  </ul>
+
+  <div class="container-fluid bg-white">
+    <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-around">
+
+      <div class="d-flex w-auto">
+        <div class="d-flex align-items-center justify-content-start">
           <img src="https://e00-marca.uecdn.es/assets/v29/img/cuidateplus.svg" width="40" height="38.77"
             alt="Cuídateplus.com">
           <div class="font-weight-bold">CuidatePlus</div>
         </div>
-        <div class="d-flex align-content-center">
+        <div class="d-flex align-items-center">
           <img src="https://e00-marca.uecdn.es/assets/v29/img/trending.svg" width="40" height="40" alt="Lo + Trending">
           <div class="font-weight-bold">Lo + Trending</div>
         </div>
@@ -48,9 +62,8 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto d-flex">
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle button" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -71,11 +84,13 @@
             <a class="btn btn-lg btn-white text-danger nav-link" href="#">Iniciar Sesión</a>
           </li>
         </ul>
+
       </div>
+
     </nav>
 
   </div>
-  <div class="container-fluid bg-danger d-flex flex-row">
+  <div class="container-fluid bg-danger d-flex flex-row align-items-center">
     <div class="dropdown">
       <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
         aria-haspopup="true" aria-expanded="false">
@@ -141,6 +156,11 @@
         <a class="dropdown-item" href="#">Another action</a>
         <a class="dropdown-item" href="#">Something else here</a>
       </div>
+    </div>
+    <div class="input-group mb-3 d-flex w-auto align-items-center">
+      <input type="text" class="form-control border-0" placeholder="Buscar en marca.com"
+        aria-label="Recipient's username" aria-describedby="basic-addon2">
+      <i class="fa fa-search bg-white"></i>
     </div>
   </div>
 
