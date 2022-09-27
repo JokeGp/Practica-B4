@@ -65,11 +65,19 @@
     <div class="collapse navbar-collapse flex-grow-0 me-5" id="navbarSupportedContent">
       <ul class="navbar-nav d-flex align-items-center">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle button border d-flex flex-row
-            align-items-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+          
+          <a class="nav-link dropdown-toggle d-flex align-items-center border rounded me-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
-            <img src="https://flagicons.lipis.dev/flags/4x3/mx.svg" alt="">
-            <div>MX</div>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <img style="width: 30px;" class="img-fluid" src="https://flagicons.lipis.dev/flags/4x3/mx.svg" alt="MX">
+                </div>
+                <div class="col">
+                  <div>MX</div>
+                </div>
+              </div>  
+            </div>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Action</a>
@@ -79,11 +87,11 @@
           </div>
         </li>
         <li class="nav-item active">
-          <a class="btn btn-lg btn-danger text-light nav-link mx-3" href="#">Suscribete
+          <a class="btn btn-lg btn-danger text-light nav-link px-5" href="#">Suscribete
             <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="btn btn-lg btn-white text-danger nav-link border mx-3" href="#">Iniciar Sesión</a>
+          <a class="btn btn-lg btn-white text-danger nav-link border mx-3 px-5" href="#">Iniciar Sesión</a>
         </li>
       </ul>
 
@@ -162,10 +170,9 @@
         </div>
       </div>
     </div>
-    <div class="d-flex w-auto align-items-center bg-white">
+    <div class="d-flex w-auto align-items-center bg-white rounded">
       <div class="input-group align-items-center">
-        <input type="text" class="form-control border-0" placeholder="Buscar en
-        marca.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <input type="text" class="form-control border-0" placeholder="Buscar en marca.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <i class="fa fa-search"></i>
       </div>
     </div>
@@ -505,6 +512,7 @@
 
 
   </footer>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
